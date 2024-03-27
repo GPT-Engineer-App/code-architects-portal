@@ -10,7 +10,7 @@ const Index = () => {
         <Container maxW="container.lg">
           <Flex align="center" justify="space-between">
             <Heading as="h1" size="lg">
-              Code Architects
+              Software Company
             </Heading>
             <Stack direction="row" spacing={4}>
               <Link href="#services">Services</Link>
@@ -76,7 +76,7 @@ const Index = () => {
           <Flex align="center" direction={["column", "row"]}>
             <Box flex={1} mr={[0, 10]}>
               <Heading as="h2" size="xl" mb={4}>
-                About Code Architects
+                About Software Company
               </Heading>
               <Text mb={6}>Code Architects is a leading software development company with a passion for building innovative solutions. Our team of experienced software engineers combines technical expertise with a deep understanding of business needs to deliver high-quality software products.</Text>
               <Button colorScheme="blue">Learn More</Button>
@@ -97,7 +97,7 @@ const Index = () => {
           <Stack spacing={6} maxW="600px" mx="auto">
             <Flex align="center">
               <Icon as={FaEnvelope} boxSize={6} color="blue.500" mr={4} />
-              <Link href="mailto:info@codearchitects.com">info@codearchitects.com</Link>
+              <Link href="mailto:info@softwarecompany.com">info@softwarecompany.com</Link>
             </Flex>
             <Button colorScheme="blue" size="lg">
               Get in Touch
@@ -110,7 +110,7 @@ const Index = () => {
       <Box bg="gray.100" py={10}>
         <Container maxW="container.lg">
           <Stack direction={["column", "row"]} spacing={4} align="center">
-            <Text>&copy; {new Date().getFullYear()} Code Architects</Text>
+            <Text>&copy; {new Date().getFullYear()} Software Company</Text>
             <Stack direction="row" spacing={4}>
               <Link href="#">Privacy Policy</Link>
               <Link href="#">Terms of Service</Link>
